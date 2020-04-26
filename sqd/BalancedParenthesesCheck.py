@@ -1,6 +1,32 @@
 def balance_check(s):
-  print('a')   
-  pass
+  pairs = {')': '(','}':'{',']':'['}
+  stack = []
+
+  if len(s)%2 !=0:
+    return False
+
+  open_set = set('({[')
+
+  matches = set([('(',')'),("{","}"),('[',']')])
+
+  for paren in s:
+    print(stack)
+    if paren in open_set:
+      stack.append(paren)
+    else:
+      if len(stack) == 0:
+        return False
+      
+      last_open = stack.pop()
+
+      if (last_open, paren) not in matches:
+        return False
+
+  return len(stack) ==0
+
+
+
+  
 
 
 """
@@ -11,7 +37,7 @@ from nose.tools import assert_equal
 class TestBalanceCheck(object):
     
     def test(self,sol):
-        assert_equal(sol('[](){([[[]]])}('),False)
+        assert_equal(sol('[(]){([[[]]])}('),False)
         assert_equal(sol('[{{{(())}}}]((()))'),True)
         assert_equal(sol('[[[]])]'),False)
         print ('ALL TEST CASES PASSED')

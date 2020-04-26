@@ -7,8 +7,8 @@ python-versions = "*"
 version = "1.3.7"
 
 [metadata]
-content-hash = "651c9cc895ffe2c21fff00e01773f8ba5e20f7824b0b816f7f0cdaf1e7ae2276"
-python-versions = "^3.8"
+content-hash = "d1624ae12966c4aff1e28b3b5f454b54bd5607c0cc1c86950836c5d482043633"
+python-versions = "^3.7"
 
 [metadata.hashes]
 nose = ["9ff7c6cc443f8c51994b34a667bbcf45afd6d945be7477b52e97516fd17c53ac", "dadcddc0aefbf99eea214e0f1232b94f2fa9bd98fa8353711dacb112bfcbbb2a", "f1bffef9cbc82628f6e7d7b40d7e255aefaa1adb6a1b1d26c69a8b79e6208a98"]
