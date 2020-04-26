@@ -7,9 +7,13 @@ class Node(object):
 a = Node(1)
 c = Node(2)
 b = Node(3)
-
+print(a.value)
 a.nextnode = b
 b.nextnode = c
 print(a.value)
 
 
+# constant time insertion and deletion
+# don't need to ammortize 
+
+# o(k) to go to back open
