@@ -5,3 +5,4 @@
 # from sqd import Decorators
 from LinkedList import SLL
 from LinkedList import DLL
+from LinkedList import SLLcheck
