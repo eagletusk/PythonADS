@@ -6,3 +6,4 @@
 from LinkedList import SLL
 from LinkedList import DLL
 from LinkedList import SLLcheck
+from LinkedList import LLreversal
