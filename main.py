@@ -7,4 +7,5 @@
 # from LinkedList import DLL
 # from LinkedList import SLLcheck
 # from LinkedList import LLreversal
-from LinkedList import nthToLastNode
+# from LinkedList import nthToLastNode
+from LinkedList import SLL_DLL
