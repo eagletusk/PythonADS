@@ -6,17 +6,17 @@ def permute1(s):
 
 
     for i, let, in enumerate(s):
-      print(i,let)
-      print(s[:i]+s[i+1:])
+      # print(i,let)
+      # print(s[:i]+s[i+1:])
       for perm in permute1(s[:i]+s[i+1:]):
         output += [let+perm]
-        print(output)
+        # print(output)
     return output
 
     
 
 # def permute(s):
-#     out = []
+#     out = [] 
     
 #     # Base Case
 #     if len(s) == 1:
@@ -35,7 +35,7 @@ def permute1(s):
 #                 print(out)
 #     return out
 
-permute1('abc')
+print(permute1('abjclk'))
 # ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
 
 
