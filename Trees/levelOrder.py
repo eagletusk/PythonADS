@@ -7,8 +7,6 @@ class Node(object):
     self.val = val
 
 
-d = collections.deque([1,2,3])
-
 
 
 def levelOrderPrint(tree):
@@ -23,6 +21,7 @@ def levelOrderPrint(tree):
 
 
   while len(nodes) != 0:
+   
     currentNode = nodes.popleft()
     current_count -=1
     
@@ -38,7 +37,7 @@ def levelOrderPrint(tree):
 
     if current_count == 0:
       print('\n')
-      current_count, next_count = next_count, current_count
+      current_count, next_count = next_count, 0
 
     
    
@@ -47,5 +46,6 @@ root = Node(2)
 root.left = Node(1)
 root.right = Node(4)
 root.left.left = Node(2)
-root.left.right = Node(4442)
+root.left.right = Node(3)
+root.right.right = Node(4442)
 levelOrderPrint(root)
