@@ -23,4 +23,6 @@
 
 
 # from Trees import tree
-from Trees import nodeTree
+# from Trees import nodeTree
+from Trees import BinHeap
+
