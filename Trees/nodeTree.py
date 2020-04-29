@@ -65,3 +65,10 @@ def postorder(tree):
     postorder(tree.getLeftChild())
     postorder(tree.getRightChild())
     print(tree.getRootVal())
+
+def inorder(tree):
+  if tree:
+    postorder(tree.getLeftChild())
+    print(tree.getRootVal())
+    postorder(tree.getRightChild())
+ 

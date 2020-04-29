@@ -24,5 +24,8 @@
 
 # from Trees import tree
 # from Trees import nodeTree
-from Trees import BinHeap
+# from Trees import BinHeap
+# from Trees import BSTcheck
+from Trees import levelOrder
+
 
