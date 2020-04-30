@@ -26,6 +26,7 @@
 # from Trees import nodeTree
 # from Trees import BinHeap
 # from Trees import BSTcheck
-from Trees import levelOrder
+# from Trees import levelOrder
+from Trees import trimTree
 
 
