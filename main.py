@@ -35,4 +35,6 @@
 # from Search import hashing
 # # from Search import BubbleSort
 # from Search import SelectionSort
-from Search import Bubbles
+# from Search import Bubbles
+from Search import theSelection
+
