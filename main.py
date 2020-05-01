@@ -31,5 +31,6 @@
 
 
 # from Search import Sequential
-from Search import binarySearch
+# from Search import binarySearch
+from Search import hashing
 
