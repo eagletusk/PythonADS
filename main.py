@@ -28,5 +28,8 @@
 # from Trees import BSTcheck
 # from Trees import levelOrder
 # from Trees import trimTree
-from Search import Sequential
+
+
+# from Search import Sequential
+from Search import binarySearch
 
