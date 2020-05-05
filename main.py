@@ -39,5 +39,6 @@
 # from Search import theSelection
 
 
-from Sort import Insertion
+# from Sort import Insertion
+from Sort import InsertionSort
 
