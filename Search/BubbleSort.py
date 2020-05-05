@@ -1,5 +1,6 @@
 def bubble(arr):
 
+    print(list(range(len(arr)-1,0,-1)))
     for i in range(len(arr)-1,0,-1):
       for k in range(i):
         print(range(i))

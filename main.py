@@ -32,9 +32,12 @@
 
 # from Search import Sequential
 # from Search import binarySearch
-# from Search import hashing
-# # from Search import BubbleSort
+# # from Search import hashing
+# from Search import BubbleSort
 # from Search import SelectionSort
 # from Search import Bubbles
-from Search import theSelection
+# from Search import theSelection
+
+
+from Sort import Insertion
 
