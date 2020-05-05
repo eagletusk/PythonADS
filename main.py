@@ -40,5 +40,6 @@
 
 
 # from Sort import Insertion
-from Sort import InsertionSort
+# from Sort import InsertionSort
+from Sort import Merge
 
