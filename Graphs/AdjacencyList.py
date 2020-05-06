@@ -1,7 +1,7 @@
 class Vertex:
 
   def __init__(self,key):
-    self.key
+    self.id = key
     self.connectedTo ={}
 
   def addNeighbor(self,nbr,weight=0):
@@ -23,10 +23,10 @@ class Graph:
 
   def __init__(self):
     self.vertList = {}
-    self.verticies = 0
+    self.numVerticies = 0
 
   def addVertex(self, key):
-    self.numVertices +=1
+    self.numVerticies +=1
     newVertex = Vertex(key)
     self.vertList[key] = newVertex
     return newVertex
@@ -52,9 +52,16 @@ class Graph:
     return self.vertList.keys()
 
   def __iter__(self):
-    return iter(self.vertList.Values())
+    return iter(self.vertList.values())
   
   def __contains__(self,n):
     return n in self.vertList 
 
 g = Graph()
+for i in range(6):
+  g.addVertex(i)
+print(g.vertList)
+g.addEdge(0,1,2)
+for vertex in g:
+  print(vertex)
+  print(vertex.getConnections, '\n')
